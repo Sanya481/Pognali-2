@@ -1,0 +1,11 @@
+.about__description {
+  padding: 33px 35px 82px 24px;
+
+  @media (min-width: $tablet-width) {
+    padding: 41px 345px 92px 34px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 42px 631px 163px 72px;
+  }
+}

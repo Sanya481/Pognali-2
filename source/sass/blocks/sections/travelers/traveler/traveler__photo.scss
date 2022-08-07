@@ -1,0 +1,14 @@
+.traveler__photo {
+  display: block;
+  width: 270px;
+  height: 270px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+
+  @media(min-width: $tablet-width) {
+    width: 285px;
+    height: 285px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+}

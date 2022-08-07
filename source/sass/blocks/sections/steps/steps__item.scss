@@ -1,0 +1,104 @@
+.steps__item {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: blueviolet;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    padding-left: 33px;
+    padding-top: 31px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  &:last-child {
+    @media (max-width: $mobile-width-only) {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    @media (min-width: $desktop-width) {
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+
+  &:not(:first-child) {
+    @media (max-width: $mobile-width-only) {
+      margin-top: -8px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin-left: -31px;
+    }
+  }
+
+  &:not(:last-child){
+    @media (min-width: $desktop-width) {
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+  }
+
+  &:nth-child(even) {
+    @media (min-width: $tablet-width) {
+      margin-left: -35px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin-left: -33px;
+    }
+  }
+
+  &--special-orange {
+    background-color: #FF8D30;
+
+    @media (min-width: $tablet-width) {
+      border-top-left-radius: 20px;
+    }
+  }
+
+  &--special-orange-light {
+    background-color: #FFA530;
+
+    @media (min-width: $tablet-width) {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+    @media (min-width: $desktop-width) {
+      border-top-right-radius: 0;
+    }
+  }
+
+  &--special-yellow-dark {
+    background-color: #FFBD30;
+
+    @media (min-width: $tablet-width) {
+      border-bottom-left-radius: 20px;
+    }
+
+  }
+
+  &--basic-yellow {
+    background-color: #FFD74B;
+
+    @media (min-width: $tablet-width) {
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+}

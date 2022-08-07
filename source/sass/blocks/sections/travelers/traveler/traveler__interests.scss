@@ -1,0 +1,18 @@
+.traveler__interests {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #444444;
+  margin-bottom: 14px;
+
+  order: 3;
+
+  @media(min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+}

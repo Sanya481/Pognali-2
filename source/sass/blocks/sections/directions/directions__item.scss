@@ -1,0 +1,7 @@
+.directions__item {
+  margin-bottom: 10px;
+
+  @media(min-width: $tablet-width ) {
+    position: relative;
+  }
+}

@@ -1,0 +1,33 @@
+.feedback__button {
+  cursor: pointer;
+  position: absolute;
+  height: 62px;
+  border: none;
+  padding: 30px;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    padding: 40px;
+    height: 80px;
+    margin: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    height: auto;
+  }
+
+  &::after {
+    right: 25px;
+
+    @media (min-width: $tablet-width) {
+      right: 35px;
+      bottom: 35px;
+    }
+  }
+}

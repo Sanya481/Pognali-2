@@ -1,0 +1,14 @@
+.directions__title {
+  line-height: 24px;
+  color: $special_orange;
+  margin-bottom: 19px;
+
+  @media(min-width: $tablet-width) {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  @media(min-width: $desktop-width) {
+    margin-bottom: 58px;
+  }
+}

@@ -1,0 +1,7 @@
+.tariffs__item {
+  margin-bottom: 6px;
+
+  @media(min-width: $tablet-width) {
+    margin-bottom: 0;
+  }
+}

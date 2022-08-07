@@ -1,0 +1,46 @@
+.country--thailand,
+.country--france,
+.country--czech {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 24px;
+    background-image: url('../../img/flags/thailand-mobile.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    top: -13px;
+    left: 23px;
+    z-index: 2;
+
+    @media(min-width: $tablet-width) {
+      width: 70px;
+      height: 47px;
+      background-image: url('../../img/flags/thailand-tablet.png');
+      top: 20px;
+      left: 395px;
+    }
+
+    @media(min-width: $desktop-width) {
+      left: 339px;
+    }
+  }
+}
+
+.country--france::before {
+  background-image: url('../../img/flags/france-mobile.png');
+
+  @media(min-width: $tablet-width) {
+    background-image: url('../../img/flags/france-tablet.png');
+  }
+}
+
+.country--czech::before {
+  background-image: url('../../img/flags/czech-mobile.png');
+
+  @media(min-width: $tablet-width) {
+    background-image: url('../../img/flags/czech-tablet.png');
+  }
+}

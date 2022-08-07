@@ -1,0 +1,13 @@
+.country__title {
+  font-size: 21px;
+  line-height: 21px;
+  color: $basic-black;
+  margin-bottom: 2px;
+  grid-area: country;
+
+  @media(min-width: $tablet-width) {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+}

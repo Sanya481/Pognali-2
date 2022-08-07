@@ -1,0 +1,36 @@
+.about__more {
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 24px;
+    color: $basic-blue-light;
+    background-color: $basic-yellow;
+    border-radius: 20px;
+    padding: 29px 127px 27px 33px;
+    margin-left: 0;
+    margin-right: 0;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border: 0 solid transparent;
+      border-bottom-width: 6px;
+      border-top-width: 6px;
+      border-left: 10px solid $basic-blue-light;
+      right: 35px;
+      bottom: 34px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 0;
+    padding: 29px 125px 27px 32px;
+  }
+}

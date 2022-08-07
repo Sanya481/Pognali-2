@@ -1,0 +1,13 @@
+.directions__photo {
+  width: 270px;
+  height: 110px;
+
+  @media(min-width: $tablet-width ) {
+    position: absolute;
+    width: 559px;
+    height: 140px;
+    right: 0;
+    top: 0;
+    z-index: 2;
+  }
+}

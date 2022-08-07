@@ -1,0 +1,9 @@
+.directions__subtitle {
+  font-weight: 300;
+
+  @media(min-width: $tablet-width) {
+    width: 350px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+}

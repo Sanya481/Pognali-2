@@ -1,0 +1,20 @@
+.tariffs__block {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  margin: 0;
+  margin-bottom: 31px;
+
+  @media(min-width: $tablet-width) {
+    justify-content: flex-start;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    margin-left: 72px;
+    margin-bottom: 33px;
+  }
+}

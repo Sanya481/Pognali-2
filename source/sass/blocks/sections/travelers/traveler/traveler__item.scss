@@ -1,0 +1,11 @@
+.traveler__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 35px 18px;
+  margin-top: -38px;
+
+  @media(min-width: 768px) {
+    padding: 27px 31px 27px;
+  }
+}

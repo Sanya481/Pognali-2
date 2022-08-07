@@ -1,0 +1,20 @@
+.tariffs__list {
+  line-height: 16px;
+  font-weight: 300;
+  margin: 0;
+  margin-right: 11px;
+
+  @media(min-width: $tablet-width) {
+    font-size: 28px;
+    line-height: 28px;
+    width: 563px;
+    padding-left: 0;
+    margin-right: 35px;
+  }
+
+  @media(min-width: $desktop-width) {
+    width: auto;
+    padding-right: 349px;
+    margin-right: 0;
+  }
+}

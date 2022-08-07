@@ -1,0 +1,11 @@
+.travelers__card {
+  margin-bottom: 9px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media(min-width: $tablet-width) {
+    margin-bottom: 40px;
+  }
+}

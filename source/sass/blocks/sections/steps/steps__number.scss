@@ -1,0 +1,22 @@
+.steps__number {
+  color: #fff;
+  padding-right: 21px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 30px;
+    padding-right: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 24px;
+    line-height: 24px;
+    padding-right: 63px;
+  }
+
+  &--padding-tablet {
+    @media (min-width: $desktop-width) {
+      padding-right: 31px;
+    }
+  }
+}

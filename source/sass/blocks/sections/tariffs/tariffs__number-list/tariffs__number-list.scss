@@ -1,0 +1,27 @@
+.tariffs__number-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+  line-height: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-left: 14px;
+  padding-right: 13px;
+  z-index: 1;
+
+  @media(min-width: $tablet-width) {
+    font-size: 28px;
+    line-height: 28px;
+    padding-left: 28px;
+    padding-right: 27px;
+    margin-right: 22px;
+    order: 0;
+    padding-top: 18px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 16px;
+  }
+}

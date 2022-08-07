@@ -1,0 +1,9 @@
+.feedback__field {
+  position: relative;
+  margin-bottom: 27px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    margin-bottom: 65px;
+  }
+}

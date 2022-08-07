@@ -1,0 +1,45 @@
+.travelers {
+  background: #E6E8F1;
+}
+
+.travelers__background {
+  background-color: #192144;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-top: 34px;
+  padding-bottom: 31px;
+
+  @media(min-width: $tablet-width) {
+    padding-top: 71px;
+    padding-bottom: 87px;
+  }
+
+  @media(min-width: $desktop-width) {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+}
+
+.travelers__wrapper {
+  padding-top: 34px;
+  background: url('../../img/background/human-photo.png') no-repeat top right, url('../../img/background/mobile-square-figure-on-traveler.png') no-repeat top left, url('../../img/background/woman-mobile.png') no-repeat left top 277px;
+
+  @media(min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    background: url('../../img/background/human-photo.png') no-repeat left 40px top 350px, url('../../img/background/tablet-square-figure-on-traveler.png') no-repeat left 40px top, url('../../img/background/woman-tablet.png') no-repeat right 34px top 10px;
+  }
+
+  @media(min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'travelers-info travelers-list'
+    'travelers-more travelers-list';
+    grid-column-gap: 60px;
+    background: url(../../img/background/human-photo.png) no-repeat top 63px left 585px, url(../../img/background/tablet-square-figure-on-traveler.png) no-repeat left 60px top, url(../../img/background/woman-tablet.png) no-repeat left 230px bottom;
+    padding-top: 60px;
+    padding-bottom: 54px;
+  }
+}

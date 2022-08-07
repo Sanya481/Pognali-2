@@ -1,0 +1,10 @@
+.traveler__movement-transport {
+  cursor: pointer;
+  fill: #1D2E5B;
+  opacity: 0.15;
+
+  &:hover {
+    fill: black;
+    opacity: 1;
+  }
+}

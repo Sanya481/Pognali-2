@@ -1,0 +1,13 @@
+.feedback__button-text {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    font-family: "Blogger Sans", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #1D2E5B;
+    padding: 29px 150px 29px 35px;
+  }
+}
