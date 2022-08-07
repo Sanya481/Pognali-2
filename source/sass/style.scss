@@ -1,0 +1,137 @@
+// Global
+
+@import "global/fonts.scss";
+@import "global/variables.scss";
+@import "global/global-styles.scss";
+
+//Header
+
+@import "header/header.scss";
+@import "header/header__block.scss";
+@import "header/header__logo.scss";
+@import "header/burger.scss";
+@import "header/authorization-button.scss";
+
+// Navigation
+
+@import "navigation/nav.scss";
+@import "navigation/nav__list.scss";
+@import "navigation/contacts.scss";
+@import "navigation/social.scss";
+
+// Sections
+
+// Intro
+
+@import "sections/intro/intro.scss";
+@import "sections/intro/intro__block.scss";
+@import "sections/intro/user-navigation.scss";
+@import "sections/intro/popular-review.scss";
+
+// Steps
+
+@import "sections/steps/steps.scss";
+@import "sections/steps/steps__list.scss";
+@import "sections/steps/steps__item.scss";
+@import "sections/steps/steps__title.scss";
+@import "sections/steps/steps__number.scss";
+
+// About
+
+@import "sections/about/about.scss";
+@import "sections/about/about__description.scss";
+@import "sections/about/about__title.scss";
+@import "sections/about/about__subtitle.scss";
+@import "sections/about/about__advice.scss";
+@import "sections/about/about__more.scss";
+
+// Header--main-page
+
+@import "sections/header--main-page/header--main-page.scss";
+@import "sections/header--main-page/header__logo-desktop--main-page.scss";
+@import "sections/header--main-page/nav__list--main-page.scss";
+
+// Directions
+
+@import "sections/directions/directions.scss";
+@import "sections/directions/directions__info.scss";
+@import "sections/directions/directions__title.scss";
+@import "sections/directions/directions__subtitle.scss";
+@import "sections/directions/directions__list.scss";
+@import "sections/directions/directions__item.scss";
+@import "sections/directions/directions__photo.scss";
+@import "sections/directions/country.scss";
+@import "sections/directions/country__info.scss";
+@import "sections/directions/country__title.scss";
+@import "sections/directions/country__slogan.scss";
+@import "sections/directions/country__popularity.scss";
+@import "sections/directions/directions__more.scss";
+
+// Travelers
+
+@import "sections/travelers/travelers.scss";
+@import "sections/travelers/travelers__info.scss";
+@import "sections/travelers/travelers__title.scss";
+@import "sections/travelers/travelers__subtitle.scss";
+@import "sections/travelers/travelers__slogan.scss";
+@import "sections/travelers/travelers__list.scss";
+@import "sections/travelers/travelers__card.scss";
+@import "sections/travelers/travelers__more.scss";
+
+  // Traveler
+@import "sections/travelers/traveler/traveler__photo.scss";
+@import "sections/travelers/traveler/traveler__list.scss";
+@import "sections/travelers/traveler/traveler__item.scss";
+@import "sections/travelers/traveler/traveler__name.scss";
+@import "sections/travelers/traveler/traveler__interests.scss";
+@import "sections/travelers/traveler/traveler__movement.scss";
+@import "sections/travelers/traveler/traveler__movement-transport.scss";
+@import "sections/travelers/traveler/traveler__country.scss";
+@import "sections/travelers/traveler/flags.scss";
+
+// Tariffs
+
+@import "sections/tariffs/tariffs.scss";
+@import "sections/tariffs/tariffs__subtitle.scss";
+@import "sections/tariffs/tariffs__block.scss";
+@import "sections/tariffs/tariffs__more.scss";
+
+  // Tariffs__number-list
+@import "sections/tariffs/tariffs__number-list/tariffs__number-list.scss";
+@import "sections/tariffs/tariffs__number-list/tariffs__number.scss";
+
+  // Tariffs__list
+@import "sections/tariffs/tariffs__list/tariffs__list.scss";
+@import "sections/tariffs/tariffs__list/tariffs__row.scss";
+@import "sections/tariffs/tariffs__list/tariffs__item.scss";
+@import "sections/tariffs/tariffs__list/tariffs__price.scss";
+
+// Feedback
+
+@import "sections/feedback/feedback.scss";
+@import "sections/feedback/feedback__title.scss";
+@import "sections/feedback/feedback__block.scss";
+@import "sections/feedback/feedback__info.scss";
+@import "sections/feedback/feedback__link.scss";
+@import "sections/feedback/feedback__advice.scss";
+@import "sections/feedback/feedback__field.scss";
+@import "sections/feedback/feedback__input.scss";
+@import "sections/feedback/feedback__button.scss";
+@import "sections/feedback/feedback__button-text.scss";
+@import "sections/feedback/feedback__help.scss";
+@import "sections/feedback/feedback__questions.scss";
+@import "sections/feedback/feedback__contacts.scss";
+
+// Address
+
+@import "sections/address/address.scss";
+@import "sections/address/address__block.scss";
+@import "sections/address/address__exact.scss";
+@import "sections/address/address__route.scss";
+
+// Footer
+
+@import "sections/footer/footer.scss";
+@import "sections/footer/footer__logo.scss";
+@import "sections/footer/footer-social.scss";
+@import "sections/footer/footer__copyright.scss";
