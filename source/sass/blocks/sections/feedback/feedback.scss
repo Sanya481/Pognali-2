@@ -1,0 +1,22 @@
+.feedback {
+  background-color: #ffd74b;
+}
+
+.feedback__background {
+  background-color: #192144;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-top: 72px;
+  padding-bottom: 21px;
+
+  @media (min-width: $tablet-width) {
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 109px;
+    padding-bottom: 40px;
+  }
+}

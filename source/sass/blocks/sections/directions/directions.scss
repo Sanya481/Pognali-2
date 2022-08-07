@@ -1,0 +1,39 @@
+.directions {
+  color: $special-grey;
+  background-color: #192144;
+}
+
+.directions__background {
+  background-color: #EDEFF6;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-bottom: 34px;
+  padding-top: 71px;
+
+  @media(min-width: $tablet-width) {
+    padding-bottom: 80px;
+  }
+
+  @media(min-width: $desktop-width) {
+    padding-top: 88px;
+    padding-bottom: 87px;
+  }
+}
+
+.directions__wrapper {
+  @media(min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    background: url('../../img/background/flags-tablet.png') no-repeat right 40px top, url('../../img/background/figure-square-in-directions.png') no-repeat left 40px top 290px;
+  }
+
+  @media(min-width: $desktop-width) {
+    display: grid;
+    grid-template-areas: 'directions-list directions-info' 'directions-list directions-more';
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 60px;
+    background-position: right 60px top, left 65px top;
+    padding-bottom: 52px;
+    padding-top: 73px;
+  }
+}

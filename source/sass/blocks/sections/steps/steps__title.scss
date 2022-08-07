@@ -1,0 +1,14 @@
+.steps__title {
+  width: 185px;
+  padding-left: 24px;
+
+  @media (min-width: $tablet-width) {
+    width: 230px;
+    margin-bottom: 11px;
+    padding-left: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
+  }
+}

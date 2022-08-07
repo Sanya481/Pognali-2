@@ -1,0 +1,17 @@
+.directions__info {
+  padding-left: 24px;
+  padding-right: 48px;
+  margin-bottom: 60px;
+
+  @media(min-width: $tablet-width) {
+    padding-left: 35px;
+    margin-bottom: 104px;
+  }
+
+  @media(min-width: $desktop-width) {
+    grid-area: directions-info;
+    padding-left: 112px;
+    padding-right: 140px;
+    margin-bottom: 98px;
+  }
+}

@@ -1,0 +1,9 @@
+.nav__list.nav__list--main-page {
+  display: flex;
+  color: $dark-blue;
+
+  &::before {
+    width: 44px;
+    background-color: #192144;
+  }
+}

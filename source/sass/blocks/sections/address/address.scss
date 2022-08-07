@@ -1,0 +1,24 @@
+.address {
+  margin-bottom: 100px;
+}
+
+.address__background {
+  color: #1D2E5B;
+  background: #FFD74B;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-top: 31px;
+  padding-bottom: 35px;
+
+  @media(min-width: $tablet-width) {
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding-top: 48px;
+    padding-bottom: 84px;
+  }
+
+  @media(min-width: $desktop-width) {
+    padding-top: 55px;
+    padding-bottom: 56px;
+  }
+}

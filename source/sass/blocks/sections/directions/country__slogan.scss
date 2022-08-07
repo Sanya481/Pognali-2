@@ -1,0 +1,11 @@
+.country__slogan {
+  line-height: 18px;
+  font-weight: 500;
+  opacity: 0.3;
+  grid-area: slogan;
+
+  @media(min-width: $tablet-width) {
+    line-height: 20px;
+    margin-bottom: 17px;
+  }
+}

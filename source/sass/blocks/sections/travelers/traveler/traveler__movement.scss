@@ -1,0 +1,14 @@
+.traveler__movement {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  order: 4;
+}
+
+.traveler__movement-item {
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

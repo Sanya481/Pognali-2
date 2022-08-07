@@ -1,0 +1,17 @@
+.steps {
+  background-color: $dark-blue;
+  margin-top: 80px;
+
+  @media (min-width: $tablet-width) {
+    /* margin-top: 0; */
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 516px;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    background-color: transparent;
+  }
+}

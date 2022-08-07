@@ -1,0 +1,14 @@
+.about__title {
+  color: $special_orange;
+  margin-bottom: 19px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 57px;
+  }
+}

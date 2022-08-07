@@ -1,0 +1,43 @@
+.tariffs__more {
+  line-height: 16px;
+  text-align: center;
+  color: #132576;
+
+  @media(min-width: $tablet-width) {
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    width: 470px;
+    padding-left: 90px;
+    padding-top: 26px;
+    padding-bottom: 22px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      background-color: #E2E5F2;
+      left: 0;
+      top: 0;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 27px;
+      height: 27px;
+      background: url('../../img/decorative/icon-businessman-in-tariffs.svg') no-repeat 0 0;
+      left: 20px;
+      top: 17px;
+    }
+  }
+
+  @media(min-width: $desktop-width) {
+    width: 600px;
+    padding-left: 90px;
+    margin-left: 72px;
+  }
+}

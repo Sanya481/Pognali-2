@@ -1,0 +1,17 @@
+.travelers__info {
+  padding-left: 24px;
+  padding-right: 25px;
+  margin-bottom: 54px;
+
+  @media(min-width: $tablet-width) {
+    padding-left: 33px;
+    margin-bottom: 59px;
+  }
+
+  @media(min-width: $desktop-width) {
+    grid-area: travelers-info;
+    padding-left: 71px;
+    padding-right: 140px;
+    margin-bottom: 98px;
+  }
+}

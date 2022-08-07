@@ -1,0 +1,57 @@
+.header__logo.footer__logo {
+  fill: #192144;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.footer__logo-tablet {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    position: relative;
+    align-self: center;
+    padding: 11px 0 11px 59px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 42px;
+      height: 38px;
+      background-image: url("../img/decorative/bag-logo-footer-tablet.svg");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      left: 0;
+      top: 0;
+      z-index: 2;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 122px;
+      height: 40px;
+      background-image: url("../img/decorative/figures-footer-tablet.svg");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      right: 15px;
+      top: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.header__logo-desktop.footer__logo-desktop {
+  @media (min-width: $desktop-width) {
+    display: inline-block;
+    fill: #192144;
+    padding: 15px 0px 15px 67px;
+  }
+}

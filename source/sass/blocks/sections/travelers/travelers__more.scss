@@ -1,0 +1,16 @@
+.travelers__more {
+  @media(min-width: $tablet-width) {
+    text-align: left;
+    padding-right: 80px;
+  }
+
+  @media(min-width: $desktop-width) {
+    grid-area: travelers-more;
+    align-self: start;
+    justify-self: left;
+    min-width: 270px;
+    padding-right: 80px;
+    margin-left: 112px;
+    margin-right: 0;
+  }
+}

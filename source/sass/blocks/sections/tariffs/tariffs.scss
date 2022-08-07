@@ -1,0 +1,41 @@
+.tariffs {
+  color: #444444;
+  background-color: #192144;
+}
+
+.tariffs__background {
+  background-color: #edeff6;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-top: 37px;
+  /* padding-bottom: 38px; */
+
+  @media(min-width: $tablet-width) {
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding-top: 74px;
+    padding-bottom: 49px;
+  }
+
+  @media(min-width: $desktop-width) {
+    padding-top: 107px;
+    padding-bottom: 165px;
+  }
+}
+
+.tariffs__wrapper {
+  background: url('../../img/background/tariff-avatar-place.png') no-repeat right 25px top;
+  padding-bottom: 38px;
+  padding-top: 16px;
+
+  @media(min-width: $tablet-width) {
+    background: url('../../img/background/tariff-avatar-place.png') no-repeat right 85px bottom, url('../../img/background/figure-in-tariffs-section.png') no-repeat right 40px top 78px;
+    padding-bottom: 15px;
+    padding-top: 0;
+  }
+
+  @media(min-width: $desktop-width) {
+    background: url('../../img/background/tariff-avatar-place-desktop.png') no-repeat right 133px bottom 120px, url('../../img/background/figure-in-tariffs-section-desktop.png') no-repeat right 250px top 130px;
+    padding-bottom: 0;
+  }
+}

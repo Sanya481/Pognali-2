@@ -1,0 +1,16 @@
+.feedback__block {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 29px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 65px;
+  }
+
+  @media (min-width: $desktop-width) {
+    line-height: 31px;
+    margin-bottom: 60px;
+  }
+}

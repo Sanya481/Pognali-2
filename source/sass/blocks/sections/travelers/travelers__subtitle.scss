@@ -1,0 +1,12 @@
+.travelers__subtitle {
+  font-weight: 300;
+  margin-bottom: 25px;
+
+  @media(min-width: $tablet-width) {
+    width: 427px;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 39px;
+
+  }
+}

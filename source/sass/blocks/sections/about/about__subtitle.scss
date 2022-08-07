@@ -1,0 +1,15 @@
+.about__subtitle {
+  font-weight: 300;
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    line-height: 34px;
+    margin-bottom: 38px;
+  }
+}
